@@ -61,5 +61,8 @@
   .footer-item {
     width: 100%;
   }
+  .special {
+    text-align: center;
+  }
 }
 </style>
