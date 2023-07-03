@@ -71,6 +71,7 @@
   .header-landing {
     flex-direction: column;
     align-content: center;
+    gap: 32px;
   }
 
   .header-landing div {

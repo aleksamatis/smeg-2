@@ -28,4 +28,9 @@ import FooterLandingComponent from '@/components/FooterLandingComponent.vue'
   overflow: hidden;
 }
 
+@media screen and (max-width: 630px) {
+  .landing-structure {
+    padding: 2rem;
+  }
+}
 </style>
