@@ -25,6 +25,7 @@ import FooterLandingComponent from '@/components/FooterLandingComponent.vue'
     #292827 77.76%,
     #c0c0c0 107.16%
   );
+  overflow: hidden;
 }
 
 </style>

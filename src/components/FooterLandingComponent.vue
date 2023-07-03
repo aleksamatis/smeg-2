@@ -88,7 +88,8 @@
   border-radius: 50%;
   position: absolute;
   top: 49px;
-  right: 260px;
+  right: 50%;
+  transform: translateX(100%);
   z-index: 2;
 }
 
@@ -101,7 +102,8 @@
   border-radius: 50%;
   position: absolute;
   top: 69px;
-  right: 240px;
+  right: 50%;
+  transform: translateX(-50%);
   z-index: 1;
 }
 
@@ -109,12 +111,13 @@
   background: transparent;
   opacity: 0.6;
   border: 1px solid #778899;
-  width: 192px;
-  height: 192px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   position: absolute;
-  top: 49px;
-  right: 640px;
+  bottom: -300px;
+  right: 50%;
+  transform: translateX(-100px);
 }
 .footer-little-four {
   opacity: 0.8;
@@ -125,7 +128,8 @@
   border-radius: 50%;
   position: absolute;
   top: 69px;
-  right: 640px;
+  right: 50%;
+  transform: translateX(150px);
 }
 
 </style>

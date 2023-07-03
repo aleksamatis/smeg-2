@@ -43,6 +43,10 @@
 .header-icons img {
   margin-right: 20px;
 }
+
+.header-icons img:last-child {
+  margin-right: 0;
+}
 .header-btn {
   background: #0074BF;
   color: #fff;
@@ -56,10 +60,21 @@
   max-width: 250px;
   border: 0;
   padding: 0 40px 0 40px;
-  white-space: nowrap;
+  text-align: center;
 }
 
 .header-btn:hover {
   background: #5690f5;
+}
+
+@media screen and (max-width: 630px) {
+  .header-landing {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .header-landing div {
+    width: auto;
+  }
 }
 </style>
