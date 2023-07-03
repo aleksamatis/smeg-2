@@ -64,6 +64,10 @@
   background: #5690f5;
 }
 
+.special {
+  z-index: 4;
+}
+
 @media (max-width: 850px) {
   .footer-landing{
     flex-wrap: wrap;
@@ -76,6 +80,7 @@
   .special {
     display: flex;
     justify-content: center;
+    z-index: 4;
   }
 }
 
@@ -127,9 +132,19 @@
   height: 40px;
   border-radius: 50%;
   position: absolute;
-  top: 69px;
+  top: 80px;
   right: 50%;
-  transform: translateX(150px);
+  transform: translateX(200px);
+  animation: go-left-right 3s infinite;
+  transform-origin: 30px 50px;
+  z-index: 1;
 }
+@keyframes go-left-right {   
+    from {transform: rotate(0) translateX(100px)}
+    to {transform: rotate(360deg) translateX(100px)}     
+    /* from { transform: translateX(-60px) translateY(-20px); }  
+    50% { transform: translateX(10px) translateY(100px); } 
+    to { transform: translateX(110px) trsanslateY(50px); }  */
+  }
 
 </style>

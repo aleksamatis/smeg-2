@@ -4,8 +4,8 @@
       <img class="header-logo" src="@/assets/images/logo.png" />
     </div>
     <div class="header-icons">
-      <img src="@/assets/images/email_black_24dp.svg" />
-      <img src="@/assets/images/phone_black_24dp.svg" />
+      <img class="grow" src="@/assets/images/email_black_24dp.svg" />
+      <img class="grow" src="@/assets/images/phone_black_24dp.svg" />
     </div>
     <div class="header-button">
       <button class="header-btn">Обратный звонок</button>
@@ -42,6 +42,11 @@
 }
 .header-icons img {
   margin-right: 20px;
+}
+.grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .header-icons img:last-child {
