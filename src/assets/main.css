@@ -1,5 +1,9 @@
 @import './base.css';
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 #app {
   max-width: 1400px;
   margin: 0 auto;
