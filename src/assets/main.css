@@ -8,13 +8,12 @@
   color: #fff;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: #fff;
-  transition: 0.4s;
+a {
+  color: inherit;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
 }
 
 a:hover {
-  background-color: #6b1a39;
+  text-decoration-color: rgba(255, 255, 255, 1);
 }

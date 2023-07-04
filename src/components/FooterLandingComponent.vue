@@ -3,8 +3,8 @@
     <div class="footer-item special">
       <img class="footer-logo" src="@/assets/images/logo.png" />
     </div>
-    <div class="footer-item special">Ремонт техники</div>
-    <div class="footer-item special">О сервисе</div>
+    <div class="footer-item special"><a href="#">Ремонт техники</a></div>
+    <div class="footer-item special"><a href="#">О сервисе</a></div>
     <div class="footer-item">
       <div class="phone-number">8 800 707-00-29</div>
       <button class="footer-btn">Обратный звонок</button>
@@ -135,11 +135,11 @@
   top: 80px;
   right: 50%;
   transform: translateX(200px);
-  animation: go-left-right 3s infinite;
+  animation: little-animation 3s infinite;
   transform-origin: 30px 50px;
   z-index: 1;
 }
-@keyframes go-left-right {   
+@keyframes little-animation {   
     from {transform: rotate(0) translateX(100px)}
     to {transform: rotate(360deg) translateX(100px)}     
     /* from { transform: translateX(-60px) translateY(-20px); }  
